@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Video Landing Page</title>
+</head>
+<body>
+  <section class="showcase">
+    <div class="video-container">
+      <video src="World-2.mp4" autoplay muted loop></video>
+    </div>
+    <div class="content">
+      <h1>Shoot For The Stars</h1>
+      <h3>Full screen video landing page</h3>
+      <a href="#about" class="C_btn">Read More</a>
+      <div>
+        <header>
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">トップ固定</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="ナビゲーションの切替">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-header">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">ホーム <span class="sr-only">(現位置)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">リンク</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">リンク1</a>
+                    <a class="dropdown-item" href="#">リンク2</a>
+                    <a class="dropdown-item" href="#">リンク3</a>
+                    <a class="dropdown-item" href="#">リンク4</a>
+                    <a class="dropdown-item" href="#">リンク5</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">リンク1</a>
+                    <a class="dropdown-item" href="#">リンク2</a>
+                    <a class="dropdown-item" href="#">リンク3</a>
+                    <a class="dropdown-item" href="#">リンク4</a>
+                    <a class="dropdown-item" href="#">リンク5</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <ul>
+                      <li><a class="dropdown-item" href="#">リンク1</a></li>
+                      <li><a class="dropdown-item" href="#">リンク2</a></li>
+                      <li><a class="dropdown-item" href="#">リンク3</a></li>
+                      <li><a class="dropdown-item" href="#">リンク4</a></li>
+                      <li><a class="dropdown-item" href="#">リンク5</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add&SignIn</a>
+                  <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                      <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Eメールアドレス</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">パスワード</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="パスワード">
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            記憶する
+                          </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">サインイン</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">新規の方はこちらから登録</a>
+                    <a class="dropdown-item" href="#">パスワードを忘れた方はこちら</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-md-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="検索..." aria-label="検索...">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
+              </form>
+            </div>
+          </nav>
+        </header>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <p>
+      This isi a landing page with a full screen video background, Feel free to 
+        use this landing page in your projects. keep adding sections, change the 
+        video, content, etc
+    </p>
+    <h2>Follow me on social media</h2>
+
+    <div class="social">
+      <a href="https://twitter.com/#" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+      <a href="https://facebok.com/#" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+      <a href="https://github.com/#" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+</body>
+</html>
